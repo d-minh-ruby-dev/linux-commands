@@ -9,7 +9,7 @@ $ dos2unix sample.cgi
 ```
 
 ## Tình huống sử dụng
-Khi bạn muốn chạy một script từ môi trường Windows.
+Khi bạn muốn chạy một script từ môi trường Windows sang môi trường Linux.
 
 Ở windows thì mã xuống dòng nó là [CR][LF], còn ở Linux thì là [LF].
 Vì thế, những script mà đã tạo ở môi trường Windows, nếu giữ nguyên thì sẽ không chạy được ở môi trường Linux.
