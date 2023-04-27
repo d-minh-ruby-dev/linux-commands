@@ -11,7 +11,7 @@ $ find "path-thư-mục-cha" -type d -name "tên-thư-mục-cần-tìm"
 
 ## Sử dụng `locate` command
 
-Để sử dụng thư mục locate, thì ta cần phải cập nhật file `mlocate.db` bằng command dưới đây:
+Để sử dụng command `locate`, thì ta cần phải cập nhật file `mlocate.db` bằng command dưới đây:
 
 ```bash
 $ updatedb
