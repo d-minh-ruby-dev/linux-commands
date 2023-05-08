@@ -48,3 +48,5 @@ $ kill [-s signal_name] pid ...
 # 14      ALRM (alarm clock)
 # 15      TERM (software termination signal)
 ```
+
+⚠️ Thường để process stop chuẩn thì nên gửi tín hiệu 15, thì nó sẽ thực thi các command cần thiết khi dừng chương trình. Khi chương trình có dấu hiệu bị treo, thì dùng tín hiệu 9, nó sẽ force close process.
